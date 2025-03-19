@@ -35,12 +35,12 @@
 .name {
     font-size: 25px;  /* Större fontstorlek för ditt namn */
     font-weight: bold;  /* Om du vill att namnet ska vara fetstil */
-    margin-bottom: 5px;
     margin-top: 10px;  /* Lägg till lite avstånd ovanför namnet */
     color: #333;  /* Färg på texten (justera om du vill) */
 }
 .short-description {
     font-size: 16px;
+    margin-top: 10px;  /* Lägg till lite avstånd ovanför namnet */
     margin-bottom: 20px;
     color: #ddd;
 }
