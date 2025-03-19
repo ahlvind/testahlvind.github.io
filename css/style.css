@@ -26,14 +26,20 @@
 }
 
 .profile-img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     margin-bottom: 15px;
 }
-
+/* Stil för profilnamnet */
+.name {
+    font-size: 25px;  /* Större fontstorlek för ditt namn */
+    font-weight: bold;  /* Om du vill att namnet ska vara fetstil */
+    margin-top: 10px;  /* Lägg till lite avstånd ovanför namnet */
+    color: #333;  /* Färg på texten (justera om du vill) */
+}
 .short-description {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 20px;
     color: #ddd;
 }
