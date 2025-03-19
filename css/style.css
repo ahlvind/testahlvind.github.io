@@ -40,7 +40,6 @@
 }
 .short-description {
     font-size: 16px;
-    margin-top: 10px;  /* Lägg till lite avstånd ovanför namnet */
     margin-bottom: 20px;
     color: #ddd;
 }
