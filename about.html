@@ -10,7 +10,7 @@
     <div class="sidebar">
         <div class="profile">
             <img src="images/profile_image.jpeg" alt="Profilbild" class="profile-img">
-            <p class="short-description">kort Beskrivning.</p>
+            <p class="short-description" id="description"></p> <!-- Här kommer texten att laddas in -->
         </div>
         <nav class="navigation">
             <ul>
@@ -23,7 +23,18 @@
 
     <div class="main-content">
         <h1>Om mig</h1>
-        <p>längre beskrivning.</p>
+        <p>längre beskrivning om mig som finns på om mig sidan.</p>
     </div>
+
+<script>
+    // JavaScript för att läsa in textfilen och uppdatera innehållet på sidan
+    fetch('about_me_short.txt')  // Läs in filen
+        .then(response => response.text())  // Om filen finns, få texten
+        .then(text => {
+            document.getElementById('description').innerText = text; // Sätt texten till elementet med id="description"
+        })
+        .catch(err => console.error('Felkod:', err)); // Om något går fel
+</script>
+    
 </body>
 </html>
